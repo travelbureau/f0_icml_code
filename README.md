@@ -8,7 +8,7 @@
 This is the reference implementation for our paper:
 
 <em><b>FormulaZero: Distributionally Robust Online Adaptation via Offline Population Synthesis</b></em>
-[PDF](https://arxiv.org/abs/1811.00145)
+[PDF](https://arxiv.org/pdf/2003.03900.pdf)
 
 [Aman Sinha*](http://amansinha.org), [Matthew O'Kelly*](http://www.mokelly.net/),[Hongrui Zheng*](), [Rahul Mangharam](), [John Duchi](http://stanford.edu/~jduchi/), [Russ Tedrake](https://groups.csail.mit.edu/locomotion/russt.html)
 
