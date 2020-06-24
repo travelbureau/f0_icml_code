@@ -74,24 +74,24 @@ and then restart your machine.
 ## Building the FormulaZero Docker Image
 To run the demo, do the following. You will need to have docker installed and have an Nvidia GPU. Currently, this only works on Linux machines (in particular the visualization does not work on Mac).
 
-0) In your terminal, navigate to the Simulator folder.
+* In your terminal, navigate to the Simulator folder.
 
-1) Run `./download_files.sh`
+* Run `./download_files.sh`
 
-If this script does not work for some reason, you can manually download the files here: https://drive.google.com/drive/folders/1cBRKoQ31lGhFYXkCiBOdl34JZvHwBQh0
+* If this script does not work for some reason, you can manually download the files here: https://drive.google.com/drive/folders/1cBRKoQ31lGhFYXkCiBOdl34JZvHwBQh0
 And then place them manually in the following locations:
 Unzip `flow_weights.zip` and then place in `/python`
 Place `map1_speed.msgpack` and `map1_range.msgpack` in `/python`
 Place `lut_inuse.npz` in `python/mpc`
 
 
-2) Run `./build_docker_ui.sh`
+* Run `./build_docker_ui.sh`
 Note you may need to use sudo with this command depending on the way you installed docker.
 
-3) If you have docker 19.03 or later, install Nvidia Container Toolkit following the instructions here: (https://github.com/NVIDIA/nvidia-docker), and run `./docker_ui.sh`. Note that you may need to use sudo with this command depending on the way you installed docker.
+* If you have docker 19.03 or later, install Nvidia Container Toolkit following the instructions here: (https://github.com/NVIDIA/nvidia-docker), and run `./docker_ui.sh`. Note that you may need to use sudo with this command depending on the way you installed docker.
 
-If you have an older version of docker and are using nvidia-docker 1.0, run `./docker_ui_nvidia_docker_1.0.sh`. Note that you may need to use sudo with this command depending on the way you installed docker.
+* If you have an older version of docker and are using nvidia-docker 1.0, run `./docker_ui_nvidia_docker_1.0.sh`. Note that you may need to use sudo with this command depending on the way you installed docker.
 
-If you have an older version of docker and are using nvidia-docker 2.0, run `./docker_ui_nvidia_docker_2.0.sh`. Note that you may need to use sudo with this command depending on the way you installed docker.
+* If you have an older version of docker and are using nvidia-docker 2.0, run `./docker_ui_nvidia_docker_2.0.sh`. Note that you may need to use sudo with this command depending on the way you installed docker.
 
 The code will take up to 5 minutes to compile upon startup depending on your machine architecture.
