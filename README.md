@@ -35,7 +35,7 @@ If you find this code useful in your work, please consider citing:
 ```
 	@article{sinha2020formulazero,
 	title={FormulaZero: Distributionally Robust Online Adaptation via Offline Population Synthesis},
-	author={Sinha, Aman and O'Kelly, Matthew and Zheng, Hongrui and Mangharam, Rahul
+	author={Sinha, Aman and O'Kelly, Matthew and Zheng, Hongrui and Mangharam, Rahul and Duchi, John and Tedrake, Russ},
 	journal={arXiv preprint arXiv:2003.03900},
 	year={2020}
 	}
