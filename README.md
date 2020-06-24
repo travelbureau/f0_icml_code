@@ -80,9 +80,9 @@ To run the demo, do the following. You will need to have docker installed and ha
 
 * If this script does not work for some reason, you can manually download the files here: https://drive.google.com/drive/folders/1cBRKoQ31lGhFYXkCiBOdl34JZvHwBQh0
 And then place them manually in the following locations:
-Unzip `flow_weights.zip` and then place in `/python`
-Place `map1_speed.msgpack` and `map1_range.msgpack` in `/python`
-Place `lut_inuse.npz` in `python/mpc`
+	- Unzip `flow_weights.zip` and then place in `/python`
+	- Place `map1_speed.msgpack` and `map1_range.msgpack` in `/python`
+	- Place `lut_inuse.npz` in `python/mpc`
 
 
 * Run `./build_docker_ui.sh`
