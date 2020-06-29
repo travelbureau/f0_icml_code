@@ -1,0 +1,9 @@
+# map1
+map_name: 'map1.yaml'
+map_prefix: 'map1'
+map_img_ext: '.png'
+speed_lut_name: 'map1_speed.msgpack'
+range_lut_name: 'map1_range.msgpack'
+csv_name: 'map1.csv'
+map_threshold: 213
+zoom: 5
