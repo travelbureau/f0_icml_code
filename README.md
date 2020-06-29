@@ -1,5 +1,5 @@
 # FormulaZero
-<b>Coming soon!</b>
+<!--b>Coming soon!</b-->
 <p align="center">
   <img src="assets/action.gif"/>
 </p>
